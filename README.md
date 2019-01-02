@@ -4,7 +4,7 @@ quick prototype of wordscapes' shuffle letters functionality
 
 ---
 
-- [Install & Build](#install-and-build)
+- [Install & Build](#install--build)
 - [Linting](#linting)
 - [Release Notes](#release-notes)
 
