@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Expo Wordscapes",
+    "description": "expo wordscapes prototype",
+    "slug": "expo-wordscapes",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "version": "0.0.1",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#ffffff",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
