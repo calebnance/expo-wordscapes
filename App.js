@@ -50,7 +50,7 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#f3f3f3',
+    backgroundColor: '#3a71ae',
     flex: 1
   },
   backgroundImage: {
@@ -60,8 +60,8 @@ const styles = StyleSheet.create({
   },
   buttonShuffle: {
     alignItems: 'center',
-    backgroundColor: '#999',
-    borderColor: '#000',
+    backgroundColor: 'rgba(0, 0, 0, 0.7)',
+    borderColor: '#fff',
     borderRadius: 26,
     borderWidth: 1,
     bottom: 228,
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
   },
   containerLetters: {
     alignSelf: 'center',
-    backgroundColor: '#ccc',
+    backgroundColor: 'rgba(255, 255, 255, 0.8)',
     borderRadius: 115,
     bottom: 48,
     height: 230,
@@ -86,19 +86,5 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.4,
     shadowRadius: 4,
     width: 230
-  },
-  horiLine: {
-    backgroundColor: 'purple',
-    height: 1,
-    position: 'absolute',
-    top: 115,
-    width: 230
-  },
-  vertLine: {
-    backgroundColor: 'purple',
-    height: 230,
-    left: 115,
-    position: 'absolute',
-    width: 1
   }
 });

@@ -10,12 +10,12 @@
     "platforms": ["ios", "android"],
     "githubUrl": "https://github.com/calebnance/expo-wordscapes",
     "orientation": "portrait",
-    "primaryColor": "#ffffff",
+    "primaryColor": "#3a71ae",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#3a71ae"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -25,7 +25,7 @@
       "versionCode": 1
     },
     "androidStatusBar": {
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#3a71ae"
     },
     "ios": {
       "buildNumber": "0.0.1",
