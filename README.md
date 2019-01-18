@@ -4,6 +4,11 @@ quick prototype of wordscapes' shuffle letters functionality
 
 ---
 
+<p align="left">
+  <img src="assets/icon.png?raw=true" width="96" />
+</p>
+
+
 - [Install & Build](#install--build)
 - [Linting](#linting)
 - [Release Notes](#release-notes)
@@ -36,6 +41,11 @@ Run Project Locally: `expo start`
 
 **version 0.0.1 (current)**
 
+<p align="left">
+  <img src="creative/releases/expo-wordscapes-0.0.1.gif?raw=true" width="320" />
+</p>
+
 - simple shuffle functionality
 - background image
 - updated to latest Expo SDK 32
+- updated app icon and loading screen
