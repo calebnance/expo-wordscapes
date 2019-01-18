@@ -11,7 +11,7 @@ quick prototype of wordscapes' shuffle letters functionality
 
 - [Install & Build](#install--build)
 - [Linting](#linting)
-- [Release Notes](#release-notes)
+- [Demo & Release Notes](#release-notes)
 
 ---
 
