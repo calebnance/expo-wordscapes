@@ -37,3 +37,5 @@ Run Project Locally: `expo start`
 **version 0.0.1 (current)**
 
 - simple shuffle functionality
+- background image
+- updated to latest Expo SDK 32
