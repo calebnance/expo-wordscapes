@@ -1,6 +1,6 @@
 # Expo Wordscapes
 
-quick prototype of wordscapes' shuffle letters functionality
+quick prototype of the shuffle letters functionality in wordscapes
 
 ---
 
