@@ -1,13 +1,13 @@
 {
   "expo": {
     "name": "Expo Wordscapes",
-    "description": "expo wordscapes prototype",
+    "description": "wordscapes clone with expo",
     "scheme": "expowordscapes",
     "slug": "expowordscapes",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "version": "0.0.1",
-    "platforms": ["ios", "android"],
+    "platforms": ["android", "ios"],
     "githubUrl": "https://github.com/calebnance/expo-wordscapes",
     "orientation": "portrait",
     "primaryColor": "#3a71ae",
@@ -23,9 +23,6 @@
     "assetBundlePatterns": ["**/*"],
     "android": {
       "versionCode": 1
-    },
-    "androidStatusBar": {
-      "backgroundColor": "#3a71ae"
     },
     "ios": {
       "buildNumber": "0.0.1",

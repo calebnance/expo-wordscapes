@@ -1,12 +1,12 @@
 {
   "name": "expo-wordscapes",
   "version": "0.0.1",
-  "description": "expo wordscapes prototype",
+  "description": "wordscapes clone with expo",
   "author": "Caleb Nance",
   "license": "MIT",
   "keywords": [
     "expo",
-    "react-native"
+    "react native"
   ],
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
