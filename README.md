@@ -2,7 +2,7 @@
 
 quick prototype of the shuffle letters functionality in wordscapes
 
-<p align="left">
+<p align="center">
   <img src="assets/icon.png?raw=true" width="96" />
 </p>
 
