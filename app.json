@@ -2,8 +2,8 @@
   "expo": {
     "name": "Expo Wordscapes",
     "description": "wordscapes clone with expo",
-    "scheme": "expowordscapes",
-    "slug": "expowordscapes",
+    "scheme": "wordscapesclone",
+    "slug": "wordscapesclone",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "version": "0.0.1",
@@ -13,9 +13,9 @@
     "primaryColor": "#3a71ae",
     "icon": "./assets/icon.png",
     "splash": {
+      "backgroundColor": "#3a71ae",
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#3a71ae"
+      "resizeMode": "contain"
     },
     "updates": {
       "fallbackToCacheTimeout": 0

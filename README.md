@@ -2,8 +2,12 @@
 
 quick prototype of the shuffle letters functionality in wordscapes
 
-<p align="left">
+<p align="center">
   <img src="assets/icon.png?raw=true" width="96" />
+</p>
+
+<p align="center">
+  <img src="screenshots/screenshare-2.jpg?raw=true" />
 </p>
 
 ## Table of Contents
@@ -18,10 +22,11 @@ Install: `yarn install`
 
 Expo CLI: `npm install -g expo-cli` (if not already installed)
 
-Run Project Locally: `expo start`
+Run Project Locally: `expo start` or `yarn dev`
 
 ## Linting
 
+- `yarn lint`
 - prettier and airbnb config
 - make sure you have [prettier package](https://atom.io/packages/prettier-atom) installed on your atom/vscode editor
 - then make sure to enable these options (packages → prettier):
@@ -34,11 +39,11 @@ Run Project Locally: `expo start`
 
 ### version 0.0.1 (current)
 
-<p align="left">
-  <img src="creative/releases/expo-wordscapes-0.0.1.gif?raw=true" width="320" />
-</p>
-
 - simple shuffle functionality
 - background image
 - updated to latest Expo SDK 32
 - updated app icon and loading screen
+
+<p align="left">
+  <img src="screenshots/expo-wordscapes-0.0.1.gif?raw=true" width="320" />
+</p>
