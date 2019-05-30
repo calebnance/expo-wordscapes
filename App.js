@@ -1,9 +1,13 @@
 import React from 'react';
 import { Image, StyleSheet, TouchableOpacity, View } from 'react-native';
 
-import SvgShuffle from './Svg.Shuffle';
+// components
 import Letters from './Letters';
 
+// icons
+import SvgShuffle from './Svg.Shuffle';
+
+// background image
 const background = require('./assets/background.jpg');
 
 export default class App extends React.Component {
