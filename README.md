@@ -39,6 +39,7 @@ Run Project Locally: `expo start` or `yarn dev`
 
 ### version 0.0.1 (current)
 
+- updated to latest Expo SDK 33
 - simple shuffle functionality
 - background image
 - updated to latest Expo SDK 32
