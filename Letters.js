@@ -17,23 +17,30 @@ class Letters extends React.Component {
 
     this.state = {
       pathing,
-      p1L: new Animated.Value(pathing[0].left),
-      p1T: new Animated.Value(pathing[0].top),
-
-      p2L: new Animated.Value(pathing[1].left),
-      p2T: new Animated.Value(pathing[1].top),
-
-      p3L: new Animated.Value(pathing[2].left),
-      p3T: new Animated.Value(pathing[2].top),
-
-      p4L: new Animated.Value(pathing[3].left),
-      p4T: new Animated.Value(pathing[3].top),
-
-      p5L: new Animated.Value(pathing[4].left),
-      p5T: new Animated.Value(pathing[4].top),
-
-      p6L: new Animated.Value(pathing[5].left),
-      p6T: new Animated.Value(pathing[5].top)
+      p1: {
+        left: new Animated.Value(pathing[0].left),
+        top: new Animated.Value(pathing[0].top)
+      },
+      p2: {
+        left: new Animated.Value(pathing[1].left),
+        top: new Animated.Value(pathing[1].top)
+      },
+      p3: {
+        left: new Animated.Value(pathing[2].left),
+        top: new Animated.Value(pathing[2].top)
+      },
+      p4: {
+        left: new Animated.Value(pathing[3].left),
+        top: new Animated.Value(pathing[3].top)
+      },
+      p5: {
+        left: new Animated.Value(pathing[4].left),
+        top: new Animated.Value(pathing[4].top)
+      },
+      p6: {
+        left: new Animated.Value(pathing[5].left),
+        top: new Animated.Value(pathing[5].top)
+      }
     };
 
     this.doShuffle = this.doShuffle.bind(this);
@@ -46,21 +53,7 @@ class Letters extends React.Component {
   }
 
   doShuffle() {
-    const {
-      pathing,
-      p1L,
-      p1T,
-      p2L,
-      p2T,
-      p3L,
-      p3T,
-      p4L,
-      p4T,
-      p5L,
-      p5T,
-      p6L,
-      p6T
-    } = this.state;
+    const { pathing, p1, p2, p3, p4, p5, p6 } = this.state;
 
     const nums = [0, 1, 2, 3, 4, 5];
     const rand = [];
@@ -73,70 +66,57 @@ class Letters extends React.Component {
       nums.splice(j, 1);
     }
 
-    Animated.spring(p1L, { toValue: pathing[rand[0]].left }).start();
-    Animated.spring(p1T, { toValue: pathing[rand[0]].top }).start();
+    Animated.spring(p1.left, { toValue: pathing[rand[0]].left }).start();
+    Animated.spring(p1.top, { toValue: pathing[rand[0]].top }).start();
 
-    Animated.spring(p2L, { toValue: pathing[rand[1]].left }).start();
-    Animated.spring(p2T, { toValue: pathing[rand[1]].top }).start();
+    Animated.spring(p2.left, { toValue: pathing[rand[1]].left }).start();
+    Animated.spring(p2.top, { toValue: pathing[rand[1]].top }).start();
 
-    Animated.spring(p3L, { toValue: pathing[rand[2]].left }).start();
-    Animated.spring(p3T, { toValue: pathing[rand[2]].top }).start();
+    Animated.spring(p3.left, { toValue: pathing[rand[2]].left }).start();
+    Animated.spring(p3.top, { toValue: pathing[rand[2]].top }).start();
 
-    Animated.spring(p4L, { toValue: pathing[rand[3]].left }).start();
-    Animated.spring(p4T, { toValue: pathing[rand[3]].top }).start();
+    Animated.spring(p4.left, { toValue: pathing[rand[3]].left }).start();
+    Animated.spring(p4.top, { toValue: pathing[rand[3]].top }).start();
 
-    Animated.spring(p5L, { toValue: pathing[rand[4]].left }).start();
-    Animated.spring(p5T, { toValue: pathing[rand[4]].top }).start();
+    Animated.spring(p5.left, { toValue: pathing[rand[4]].left }).start();
+    Animated.spring(p5.top, { toValue: pathing[rand[4]].top }).start();
 
-    Animated.spring(p6L, { toValue: pathing[rand[5]].left }).start();
-    Animated.spring(p6T, { toValue: pathing[rand[5]].top }).start();
+    Animated.spring(p6.left, { toValue: pathing[rand[5]].left }).start();
+    Animated.spring(p6.top, { toValue: pathing[rand[5]].top }).start();
   }
 
   render() {
-    const {
-      p1L,
-      p1T,
-      p2L,
-      p2T,
-      p3L,
-      p3T,
-      p4L,
-      p4T,
-      p5L,
-      p5T,
-      p6L,
-      p6T
-    } = this.state;
+    const { p1, p2, p3, p4, p5, p6 } = this.state;
 
     return (
       <View style={styles.container}>
         <Animated.View
-          style={[styles.containerLetter, { left: p1L, top: p1T }]}
+          style={[styles.containerLetter, { left: p1.left, top: p1.top }]}
         >
           <Text style={styles.letter}>N</Text>
         </Animated.View>
         <Animated.View
-          style={[styles.containerLetter, { left: p2L, top: p2T }]}
+          style={[styles.containerLetter, { left: p2.left, top: p2.top }]}
         >
           <Text style={styles.letter}>R</Text>
         </Animated.View>
         <Animated.View
-          style={[styles.containerLetter, { left: p3L, top: p3T }]}
+          style={[styles.containerLetter, { left: p3.left, top: p3.top }]}
         >
           <Text style={styles.letter}>S</Text>
         </Animated.View>
         <Animated.View
-          style={[styles.containerLetter, { left: p4L, top: p4T }]}
+          style={[styles.containerLetter, { left: p4.left, top: p4.top }]}
         >
           <Text style={styles.letter}>M</Text>
         </Animated.View>
         <Animated.View
-          style={[styles.containerLetter, { left: p5L, top: p5T }]}
+          style={[styles.containerLetter, { left: p5.left, top: p5.top }]}
         >
           <Text style={styles.letter}>O</Text>
         </Animated.View>
         <Animated.View
-          style={[styles.containerLetter, { left: p6L, top: p6T }]}
+          style={[styles.containerLetter, { left: p6.left, top: p6.top }]}
         >
           <Text style={styles.letter}>E</Text>
         </Animated.View>
