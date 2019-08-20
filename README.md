@@ -39,10 +39,11 @@ Run Project Locally: `expo start` or `yarn dev`
 
 ### version 0.0.1 (current)
 
-- updated to latest Expo SDK 33
+- upgraded to latest [Expo SDK 34](https://blog.expo.io/expo-sdk-34-is-now-available-4f7825239319)
+- upgraded to latest [Expo SDK 33](https://blog.expo.io/expo-sdk-v33-0-0-is-now-available-52d1c99dfe4c)
 - simple shuffle functionality
 - background image
-- updated to latest Expo SDK 32
+- upgraded to latest [Expo SDK 32](https://blog.expo.io/expo-sdk-v32-0-0-is-now-available-6b78f92a6c52)
 - updated app icon and loading screen
 
 <p align="left">
