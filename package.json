@@ -9,6 +9,7 @@
     "react native",
     "wordscapes"
   ],
+  "private": true,
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "dev": "expo start",
@@ -36,14 +37,10 @@
     "eslint-plugin-react": "^7.13.0",
     "prettier": "^1.17.1"
   },
-  "private": true,
   "prettier": {
     "singleQuote": true
   },
   "eslintIgnore": [
     "babel.config.js"
-  ],
-  "engines": {
-    "node": ">=10.3.0"
-  }
+  ]
 }
