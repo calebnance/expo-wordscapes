@@ -3,8 +3,8 @@ import { Animated, StyleSheet, Text, View } from 'react-native';
 import PropTypes from 'prop-types';
 
 class Letters extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
 
     const pathing = [
       { left: 95, top: 10 },
@@ -66,23 +66,59 @@ class Letters extends React.Component {
       nums.splice(j, 1);
     }
 
-    Animated.spring(p1.left, { toValue: pathing[rand[0]].left }).start();
-    Animated.spring(p1.top, { toValue: pathing[rand[0]].top }).start();
+    Animated.spring(p1.left, {
+      toValue: pathing[rand[0]].left,
+      useNativeDriver: false
+    }).start();
+    Animated.spring(p1.top, {
+      toValue: pathing[rand[0]].top,
+      useNativeDriver: false
+    }).start();
 
-    Animated.spring(p2.left, { toValue: pathing[rand[1]].left }).start();
-    Animated.spring(p2.top, { toValue: pathing[rand[1]].top }).start();
+    Animated.spring(p2.left, {
+      toValue: pathing[rand[1]].left,
+      useNativeDriver: false
+    }).start();
+    Animated.spring(p2.top, {
+      toValue: pathing[rand[1]].top,
+      useNativeDriver: false
+    }).start();
 
-    Animated.spring(p3.left, { toValue: pathing[rand[2]].left }).start();
-    Animated.spring(p3.top, { toValue: pathing[rand[2]].top }).start();
+    Animated.spring(p3.left, {
+      toValue: pathing[rand[2]].left,
+      useNativeDriver: false
+    }).start();
+    Animated.spring(p3.top, {
+      toValue: pathing[rand[2]].top,
+      useNativeDriver: false
+    }).start();
 
-    Animated.spring(p4.left, { toValue: pathing[rand[3]].left }).start();
-    Animated.spring(p4.top, { toValue: pathing[rand[3]].top }).start();
+    Animated.spring(p4.left, {
+      toValue: pathing[rand[3]].left,
+      useNativeDriver: false
+    }).start();
+    Animated.spring(p4.top, {
+      toValue: pathing[rand[3]].top,
+      useNativeDriver: false
+    }).start();
 
-    Animated.spring(p5.left, { toValue: pathing[rand[4]].left }).start();
-    Animated.spring(p5.top, { toValue: pathing[rand[4]].top }).start();
+    Animated.spring(p5.left, {
+      toValue: pathing[rand[4]].left,
+      useNativeDriver: false
+    }).start();
+    Animated.spring(p5.top, {
+      toValue: pathing[rand[4]].top,
+      useNativeDriver: false
+    }).start();
 
-    Animated.spring(p6.left, { toValue: pathing[rand[5]].left }).start();
-    Animated.spring(p6.top, { toValue: pathing[rand[5]].top }).start();
+    Animated.spring(p6.left, {
+      toValue: pathing[rand[5]].left,
+      useNativeDriver: false
+    }).start();
+    Animated.spring(p6.top, {
+      toValue: pathing[rand[5]].top,
+      useNativeDriver: false
+    }).start();
   }
 
   render() {

@@ -11,8 +11,8 @@ import SvgShuffle from './Svg.Shuffle';
 const background = require('./assets/background.jpg');
 
 export default class App extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
 
     this.state = {
       doShuffle: false
