@@ -20,14 +20,14 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "^39.0.0",
+    "expo": "^40.0.0",
     "prop-types": "^15.7.2",
     "react": "16.13.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.0.tar.gz",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.0.tar.gz",
     "react-native-svg": "12.1.0"
   },
   "devDependencies": {
-    "babel-preset-expo": "^8.3.0",
+    "babel-preset-expo": "8.3.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.3.0",
