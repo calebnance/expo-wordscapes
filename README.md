@@ -13,8 +13,16 @@ quick prototype of the shuffle letters functionality in wordscapes
 ## Table of Contents
 
 - [Install & Build](#install--build)
+- [Features](#features)
 - [Linting](#linting)
 - [Demo & Release Notes](#release-notes)
+
+## Features
+
+- Expo SDK 42
+- iOS, Android and PWA (Progressive Web App)
+- Linting
+- PropTypes
 
 ## Install & Build
 

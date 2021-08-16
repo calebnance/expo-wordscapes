@@ -18,11 +18,11 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "^41.0.0",
+    "expo": "^42.0.0",
     "prop-types": "^15.7.2",
     "react": "16.13.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
-    "react-native-svg": "12.1.0"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-svg": "12.1.1"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
