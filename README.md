@@ -19,7 +19,7 @@ quick prototype of the shuffle letters functionality in wordscapes
 
 ## Features
 
-- Expo SDK 42
+- Expo SDK 44
 - iOS, Android and PWA (Progressive Web App)
 - Linting
 - PropTypes
@@ -47,6 +47,7 @@ Run Project Locally: `yarn dev` or `yarn start`
 
 ### version 0.0.1 (current)
 
+- upgraded to [Expo SDK 44](https://blog.expo.dev/expo-sdk-44-4c4b8306584a)
 - upgraded to [Expo SDK 41](https://blog.expo.io/expo-sdk-41-12cc5232f2ef)
 - upgraded to [Expo SDK 40](https://blog.expo.io/expo-sdk-40-is-now-available-d4d73e67da33)
 - upgraded to [Expo SDK 39](https://blog.expo.io/expo-sdk-39-is-now-available-4c10aa825e3f)
